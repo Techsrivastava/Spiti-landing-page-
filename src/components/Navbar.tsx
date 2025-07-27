@@ -13,6 +13,7 @@ interface NavItem {
 const navItems: NavItem[] = [
   { name: 'Home', href: '/' },
   { name: 'Signature Expeditions', href: '/signature-expeditions' },
+  { name: 'Packages', href: '/packages' },
   { name: 'Destinations', href: '/destinations' },
   { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' },
