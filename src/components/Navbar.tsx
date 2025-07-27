@@ -12,10 +12,9 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { name: 'Home', href: '/' },
-  { name: 'Features', href: '/features' },
-  { name: 'Solutions', href: '/solutions' },
-  { name: 'Pricing', href: '/pricing' },
-  { name: 'Resources', href: '/resources' },
+  { name: 'Signature Expeditions', href: '/signature-expeditions' },
+  { name: 'Destinations', href: '/destinations' },
+  { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' },
 ];
 
@@ -96,17 +95,17 @@ export default function Navbar() {
             >
               <Link href="/" className="flex items-center space-x-3">
                 <div className="relative">
-                  <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-rose-500 via-rose-600 to-rose-700 shadow-lg">
+                  <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-amber-500 via-orange-600 to-red-700 shadow-lg">
                     <Zap className="h-5 w-5 text-white" />
                   </div>
                   <div className="absolute -top-1 -right-1 h-3 w-3 animate-pulse rounded-full bg-green-400"></div>
                 </div>
                 <div className="flex flex-col">
                   <span className="text-white text-lg font-bold">
-                    Acme Inc.
+                    Nomadic Road
                   </span>
                   <span className="text-white -mt-1 text-xs">
-                    Build faster
+                    Adventure Awaits
                   </span>
                 </div>
               </Link>
@@ -172,7 +171,7 @@ export default function Navbar() {
                   href="/signup"
                   className="bg-foreground text-background hover:bg-foreground/90 inline-flex items-center space-x-2 rounded-lg px-5 py-2.5 text-sm font-medium shadow-sm transition-all duration-200"
                 >
-                  <span>Get Started</span>
+                  <span>Book Now</span>
                   <ArrowRight className="h-4 w-4" />
                 </Link>
               </motion.div>
@@ -242,7 +241,7 @@ export default function Navbar() {
                     className="bg-foreground text-background hover:bg-foreground/90 block w-full rounded-lg py-3 text-center font-medium transition-all duration-200"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    Get Started
+                    Book Now
                   </Link>
                 </motion.div>
               </div>

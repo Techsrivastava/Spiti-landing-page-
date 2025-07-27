@@ -33,7 +33,7 @@ export default function SectionTwo() {
         {/* Main Content */}
         <div className="flex flex-1 items-center">
          <ScrollVelocity
-  texts={['React Bits', 'Scroll Down']} 
+  texts={['Adarsh Srivastava', 'Software Engineer']} 
   velocity={100} 
   className="custom-scroll-text"
 />
